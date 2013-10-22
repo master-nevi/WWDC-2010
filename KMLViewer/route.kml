@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>1 Infinite Loop, Cupertino, CA 95014 to Antonio's Nut House</name>
+    <Style id="roadStyle">
+      <LineStyle>
+        <color>7fcf0064</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Snippet>
+      <![CDATA[<font size=+1><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=1+infinite+loop&daddr=37.342594,-122.074242+to:Junipero+Serra+Blvd+to:321+South+California+Avenue,+Palo+Alto,+CA+94306-1830+(Antonio%27s+Nut+House)&hl=en&geocode=FcKiOQIdkPW5-Cmx7hHctrWPgDFyFf-fxnt5aA%3B%3BFY7VOgIdhPi3-A%3BFbUXOwIdDTu4-CFiLMmYGtMiqCm9DzK95bqPgDHFBUVy71HL3A&mra=dpe&mrcr=0&mrsp=1&sz=13&via=1,2&sll=37.359379,-122.080593&sspn=0.109155,0.133553&ie=UTF8&ll=37.385299,-122.109261&spn=0.109118,0.133553&z=13">Printable view</a></font>]]>
+</Snippet>
+    <Placemark>
+      <name>Head west on Infinite Loop toward N De Anza Blvd</name>
+      <description>
+        <![CDATA[go 404&#160;ft]]>
+</description>
+      <address>1 Infinite Loop, Cupertino, CA 95014</address>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/go.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/go-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/go.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/go-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.030760,37.331690,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.030760</longitude>
+        <latitude>37.331690</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>270.000427</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Turn right at N De Anza Blvd</name>
+      <description>
+        <![CDATA[go 0.2&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.032160,37.331690,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.032160</longitude>
+        <latitude>37.331690</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>270.000427</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Turn left to merge onto I-280 N</name>
+      <description>
+        <![CDATA[go 1.8&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.032180,37.335050,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.032180</longitude>
+        <latitude>37.335050</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>359.728821</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Exit onto Foothill Expy toward Grant Rd</name>
+      <description>
+        <![CDATA[go 0.3&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.064600,37.334030,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.064600</longitude>
+        <latitude>37.334030</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>294.453583</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Slight left to stay on Foothill Expy</name>
+      <description>
+        <![CDATA[go 5.6&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.068060,37.336930,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.068060</longitude>
+        <latitude>37.336930</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>351.667572</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Slight left to stay on Foothill Expy</name>
+      <description>
+        <![CDATA[go 1.4&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.133020,37.397780,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.133020</longitude>
+        <latitude>37.397780</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>330.117035</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Continue onto Junipero Serra Blvd</name>
+      <description>
+        <![CDATA[go 0.4&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.155920,37.406470,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.155920</longitude>
+        <latitude>37.406470</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>310.543976</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Turn right at Stanford Ave</name>
+      <description>
+        <![CDATA[go 1.1&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.161020,37.410190,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.161020</longitude>
+        <latitude>37.410190</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>312.562103</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Turn right at Cornell St</name>
+      <description>
+        <![CDATA[go 0.3&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.152250,37.424080,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.152250</longitude>
+        <latitude>37.424080</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>33.590012</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Turn left at S California Ave Destination will be on the right</name>
+      <description>
+        <![CDATA[go 0.4&#160;mi]]>
+</description>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause.png</href>
+              </Icon>
+              <hotSpot x="0.500000" y="0.000000" xunits="fraction" yunits="fraction" />
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/pause-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.148370,37.422010,0</coordinates>
+      </Point>
+      <LookAt>
+        <longitude>-122.148370</longitude>
+        <latitude>37.422010</latitude>
+        <range>100.000000</range>
+        <tilt>45.000000</tilt>
+        <heading>123.891106</heading>
+      </LookAt>
+    </Placemark>
+    <Placemark>
+      <name>Arrive at: Foothill Expy</name>
+      <address>Foothill Expy</address>
+      <StyleMap>
+        <Pair>
+          <key>normal</key>
+          <Style>
+            <IconStyle>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/stop.png</href>
+              </Icon>
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/stop-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+        <Pair>
+          <key>highlight</key>
+          <Style>
+            <IconStyle>
+              <scale>1.300000</scale>
+              <Icon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/stop.png</href>
+              </Icon>
+            </IconStyle>
+            <ListStyle>
+              <ItemIcon>
+                <href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/paddle/stop-lv.png</href>
+              </ItemIcon>
+            </ListStyle>
+          </Style>
+        </Pair>
+      </StyleMap>
+      <Point>
+        <coordinates>-122.074140,37.342677,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Route</name>
+      <description>
+        <![CDATA[Distance: 11.6&#160;mi (about 26 mins)<br/>Map data &#169;2010 Google ]]>
+</description>
+      <GeometryCollection>
+        <LineString>
+          <coordinates>-122.030760,37.331690,0.000000 -122.032160,37.331690,0.000000 -122.032160,37.331690,0.000000 -122.032180,37.335050,0.000000 -122.032180,37.335050,0.000000 -122.032440,37.335040,0.000000 -122.034280,37.334660,0.000000 -122.035580,37.334580,0.000000 -122.036060,37.334470,0.000000 -122.046450,37.334390,0.000000 -122.048230,37.334120,0.000000 -122.055850,37.332530,0.000000 -122.056530,37.332420,0.000000 -122.057650,37.332330,0.000000 -122.059240,37.332410,0.000000 -122.060380,37.332610,0.000000 -122.061530,37.332920,0.000000 -122.064600,37.334030,0.000000 -122.064600,37.334030,0.000000 -122.066000,37.334710,0.000000 -122.067090,37.335540,0.000000 -122.067290,37.335620,0.000000 -122.067560,37.335660,0.000000 -122.067830,37.335810,0.000000 -122.068010,37.336050,0.000000 -122.067990,37.336550,0.000000 -122.068060,37.336930,0.000000 -122.068060,37.336930,0.000000 -122.068590,37.338050,0.000000 -122.068770,37.338330,0.000000 -122.069330,37.338940,0.000000 -122.069740,37.339290,0.000000 -122.078370,37.345930,0.000000 -122.087890,37.352990,0.000000 -122.097250,37.360270,0.000000 -122.098790,37.361410,0.000000 -122.110300,37.370330,0.000000 -122.114230,37.373310,0.000000 -122.115420,37.374300,0.000000 -122.116810,37.375740,0.000000 -122.118060,37.377270,0.000000 -122.121430,37.381680,0.000000 -122.123950,37.384800,0.000000 -122.126420,37.387990,0.000000 -122.127000,37.388810,0.000000 -122.131190,37.395250,0.000000 -122.133020,37.397780,0.000000 -122.133020,37.397780,0.000000 -122.133640,37.398300,0.000000 -122.134580,37.398870,0.000000 -122.136650,37.399650,0.000000 -122.137200,37.399910,0.000000 -122.141890,37.402710,0.000000 -122.143560,37.403550,0.000000 -122.144370,37.403870,0.000000 -122.146330,37.404500,0.000000 -122.147200,37.404720,0.000000 -122.148270,37.404930,0.000000 -122.149130,37.405060,0.000000 -122.150650,37.405210,0.000000 -122.153710,37.405440,0.000000 -122.154540,37.405660,0.000000 -122.154830,37.405780,0.000000 -122.155140,37.405940,0.000000 -122.155920,37.406470,0.000000 -122.155920,37.406470,0.000000 -122.161020,37.410190,0.000000 -122.161020,37.410190,0.000000 -122.158970,37.412540,0.000000 -122.157630,37.413660,0.000000 -122.157540,37.413810,0.000000 -122.157350,37.414850,0.000000 -122.157390,37.415450,0.000000 -122.157560,37.416490,0.000000 -122.157510,37.417630,0.000000 -122.157410,37.417910,0.000000 -122.152250,37.424080,0.000000 -122.152250,37.424080,0.000000 -122.148370,37.422010,0.000000 -122.148370,37.422010,0.000000 -122.146580,37.424140,0.000000 -122.145990,37.424920,0.000000 -122.145890,37.424940,0.000000 -122.145410,37.425530,0.000000 -122.145410,37.425610,0.000000 -122.144360,37.426900,0.000000 -122.144270,37.426930,0.000000 -122.144060,37.427170,0.000000</coordinates>
+        </LineString>
+      </GeometryCollection>
+      <styleUrl>#roadStyle</styleUrl>
+    </Placemark>
+  </Document>
+</kml>

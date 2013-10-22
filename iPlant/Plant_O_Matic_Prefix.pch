@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Plant-O-Matic' target in the 'Plant-O-Matic' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

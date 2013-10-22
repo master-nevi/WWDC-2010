@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf290
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green63\blue160;}
+\margl1440\margr1440\vieww14100\viewh19240\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 Preparation Steps Necessary to Run EPFImporter:\
+\
+
+\b\fs36 Software Requirements
+\b0 \
+
+\fs24 \
+
+\b MySQL 5.1 or later\
+
+\b0 To verify that MySQL is installed, type \
+
+\f1 mysql --version\
+
+\f0 or
+\f1 \
+/usr/local/mysql/bin/mysql --version\
+
+\f0 \
+
+\i To Install MySQL
+\i0 :\
+Download the MySQL package for Mac OS X: (32 or 64 bit, depending on your machine): {\field{\*\fldinst{HYPERLINK "http://dev.mysql.com/downloads/mysql/5.1.html#macosx-dmg"}}{\fldrslt http://dev.mysql.com/downloads/mysql/5.1.html#macosx-dmg}}\
+Install everything in the package in this order: mysql, MySQLStartupItem, and (optional) MySQL preference pane.\
+This will install mysql into 
+\f1 /usr/local/mysql/
+\f0 \
+Start MySQL\
+\
+
+\b Python 2.6 or later
+\b0  (Already installed on SnowLeopard)\
+To verify that Python is installed, type:  \
+
+\f1 python --version
+\f0 \
+\
+
+\b MySQLdb Python module
+\b0  (Mac/Unix/Linux: {\field{\*\fldinst{HYPERLINK "http://sourceforge.net/projects/mysql-python/"}}{\fldrslt \cf2 \ul http://sourceforge.net/projects/mysql-python/}}; Windows: {\field{\*\fldinst{HYPERLINK "http://www.codegood.com/"}}{\fldrslt \cf2 \ul http://www.codegood.com}})\
+\
+To verify that the MySQLdb module is properly installed, type \
+
+\f1 python \
+>>> import MySQLdb\
+
+\f0\i \
+To install MySQLdb
+\i0 \
+The Python MySQLdb module download includes a README which has instructions for installing the module. Note that MySQL must be installed first; the module requires certain MySQL files to be present in order to configure itself properly.\
+\
+Within the extracted tar file, edit site.cfg and make sure that mysql_config is pointing to the correct location.  If you installed MySQL using the above instructions, you will need to use this line:\
+
+\f1 mysql_config = /usr/local/mysql/bin/mysql_config\
+
+\f0 \
+Then run:\
+
+\f1 python setup.py build\
+sudo python setup.py install\
+
+\f0 \
+
+\b Verify Everything Is Installed:\
+
+\f1\b0 /usr/local/mysql/bin/mysql --version\
+python --version
+\f0 \
+
+\f1 python \
+>>> import MySQLdb
+\f0 \
+\
+
+\b\fs36 \
+Database Setup
+\b0 \
+
+\fs24 For more information about this section, please see: \
+{\field{\*\fldinst{HYPERLINK "http://dev.mysql.com/doc/refman/5.1/en/tutorial.html"}}{\fldrslt \cf2 \ul http://dev.mysql.com/doc/refman/5.1/en/tutorial.html}}\
+
+\b \
+
+\b0 Immediately after install, your mysql database can be accessed using user root and an empty password.  If you are using an existing mysql installation, you'll need to use the appropriate user and password in the instructions below.
+\b \
+\
+Create an EPF database\
+
+\b0 You may, instead of this step, put EPF data into an existing database; please contact your database admin.\
+\
+
+\f1 mysqladmin --user=root -p create epf\
+
+\f0 \
+
+\b Create an EPF database user
+\b0 \
+For more information about this section, please see: \
+{\field{\*\fldinst{HYPERLINK "http://dev.mysql.com/doc/refman/5.1/en/adding-users.html"}}{\fldrslt http://dev.mysql.com/doc/refman/5.1/en/adding-users.html}}
+\b \
+
+\b0 \
+These lines will create an "epfimporter" user with password "epf123" who has access to all tables in the "epf" database; please contact your database admin for help:\
+\
+
+\f1 mysql --user=root mysql -p\
+mysql> CREATE USER 'epfimporter'@'localhost' IDENTIFIED BY 'epf123';\
+mysql> GRANT ALL PRIVILEGES ON epf.* TO 'epfimporter'@'localhost' WITH GRANT OPTION;\
+mysql> CREATE USER 'epfimporter'@'%' IDENTIFIED BY 'epf123';\
+mysql> GRANT ALL PRIVILEGES ON epf.* TO 'epfimporter'@'%' WITH GRANT OPTION;\
+mysql> commit;\
+
+\f0 \
+If you're just getting started with mysql, the following may be helpful as well.  Please contact your database admin for help:
+\f1 \
+mysql> CREATE USER 'admin'@'localhost';\
+mysql> GRANT RELOAD,PROCESS ON *.* TO 'admin'@'localhost';\
+
+\f0 \
+
+\b Verify\
+
+\f1\b0 mysql --user=epfimporter epf -p\
+mysql> show tables;\
+Empty set (0.00 sec)\
+\
+mysql> \
+
+\f0\b \
+
+\b0 \
+
+\b\fs36 Configure EPFImporter
+\b0 \
+
+\fs24 \
+Edit EPFConfig.json and EPFFlatConfig.json to correspond to the MySQL user that you have configured for EPFImporter.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

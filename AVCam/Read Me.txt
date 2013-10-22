@@ -1,0 +1,85 @@
+Read Me About AVCam
+========================
+1.0
+
+AVCam demonstrates how to use the AVFoundation capture APIs for audio, video, and still image capture. It also includes camera controls in the HUD for torch, flash, focus, expose, white balance, session presets, enable/disabling the video and audio connections, changing the orientation, and mirroring. The orientation and mirroring settings apply to recorded movies and still images, as well as the video preview. The HUD includes a view with on/off lights showing when the focus (F), expose (E), or white balance (W) are adjusting. Additionally, there is a display of the peak and power audio levels, the current focus and expose points, the number of audio/video devices available, plus a duration and size read-out when a recording is in progress. There is support for single-tap to focus at a specific point, double-tap to expose at a specific point, and triple-tap to re-center the focus and expose boxes. The Grav button allows cycling through the video preview layers gravity settings (resize, aspect, aspect fill).
+
+AVCam runs on iPhone OS 4.0 and later devices with a built-in video camera.
+
+Packing List
+------------
+The sample contains the following items:
+
+o Read Me.txt -- This file.
+o AVCam.xcodeproj -- An Xcode project for the sample.
+o Classes.[h,m] -- The core AVCam code.
+o main.m -- Creates the app object and the application delegate and sets up the event cycle.
+o Resources -- Contains the application nib files and image files
+for the user interface.
+
+Using the Sample
+----------------
+To test the sample, just run it and use the provided buttons to perform audio/video and still image capture. Here's a summary of the buttons:
+
+o HUD -- capture configuration options as follows:
+
+Flash - flash mode
+Torch - torch mode
+Focus - focus mode 
+AExp - exposure mode
+AWB - white balance mode
+Preset - capture settings presets
+Video - capture video media
+Audio - capture audio media
+Orient - orientation mode
+Mirror - mirroring mode
+
+plus camera info:
+Power - audio power level
+Peak - audio peak output
+Focus - point of focus
+Expose - point of expose
+Device(s) - number of devices available
+Duration - duration of current recording
+Size - size of current recording
+F (adjusting focus)
+E (adjusting exposure)
+W (adjusting white balance)
+
+o Record -- start/stop recording
+o Still -- capture a still image
+o Grav -- change the video previews gravity setting
+
+Recorded audio, video and still images are saved to the Photo library camera roll (except audio-only movies, which cannot be stored in the camera roll).
+
+Building the Sample
+-------------------
+The sample was built using Xcode 3.2.3 on Mac OS X 10.6.3 with the Mac OS X 10.6 SDK.  You should be able to just open the project and choose Build from the Build menu.
+
+How It Works
+------------
+
+AVCam makes use of the following AVFoundation AVCapture classes to provide audio, video and still image capture and control:
+
+AVCaptureAudioDataOutput
+AVCaptureConnection
+AVCaptureDevice
+AVCaptureFileOutput
+AVCaptureInput
+AVCaptureMovieFileOutput
+AVCaptureOutput
+AVCaptureSession
+AVCaptureStillImageOutput
+AVCaptureVideoDataOutput
+AVCaptureVideoPreviewLayer
+
+See the AVFoundation documentation for more information.
+
+Credits and Version History
+---------------------------
+If you find any problems with this sample, please file a bug against it.
+
+<http://developer.apple.com/bugreporter/>
+
+1.0 (June 2010) was the first shipping version.
+

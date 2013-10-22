@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SharksterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SharksterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28D3F202112F7DC200FD0661 /* Sharkster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Sharkster.xcdatamodeld */; };
+		347CC7CD11B09229002D91F6 /* PaymentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CC7CC11B09229002D91F6 /* PaymentTableViewCell.m */; };
+		347CC7EC11B0940F002D91F6 /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347CC7EB11B0940F002D91F6 /* PaymentCell.xib */; };
+		34EC7E3E11B04A7B009872FC /* LoanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34EC7E3D11B04A7B009872FC /* LoanCell.xib */; };
+		5D28D6A511AC421300CCCB34 /* LoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28D6A311AC421300CCCB34 /* LoanViewController.m */; };
+		5D28D6A611AC421300CCCB34 /* LoanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D28D6A411AC421300CCCB34 /* LoanViewController.xib */; };
+		5D28D76C11AC4CCF00CCCB34 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D28D76B11AC4CCF00CCCB34 /* AddressBookUI.framework */; };
+		5D28D8F211AC70EE00CCCB34 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D28D8F111AC70EE00CCCB34 /* AddressBook.framework */; };
+		5D28D94011AC758600CCCB34 /* LoanDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D28D93F11AC758600CCCB34 /* LoanDetails.xib */; };
+		5D28DAF611AC9BE000CCCB34 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28DAF411AC9BE000CCCB34 /* DatePickerViewController.m */; };
+		5D28DAF711AC9BE000CCCB34 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D28DAF511AC9BE000CCCB34 /* DatePickerViewController.xib */; };
+		5D28DD1F11ADBF6E00CCCB34 /* NumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28DD1D11ADBF6E00CCCB34 /* NumberViewController.m */; };
+		5D28DD2011ADBF6E00CCCB34 /* NumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D28DD1E11ADBF6E00CCCB34 /* NumberViewController.xib */; };
+		5D28DF1511ADF7FB00CCCB34 /* LoanLengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28DF1411ADF7FB00CCCB34 /* LoanLengthViewController.m */; };
+		5D50EDE911AF400A00667FE4 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50EDE811AF400A00667FE4 /* Payment.m */; };
+		5D50EDEE11AF402600667FE4 /* Loan.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50EDED11AF402600667FE4 /* Loan.m */; };
+		5D50EE0211AF4A1600667FE4 /* PaymentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50EE0011AF4A1600667FE4 /* PaymentPickerViewController.m */; };
+		5D50EE0311AF4A1600667FE4 /* PaymentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D50EE0111AF4A1600667FE4 /* PaymentPickerViewController.xib */; };
+		5DFC535B11B05BD50004DCE4 /* PaymentScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC535A11B05BD50004DCE4 /* PaymentScheduleViewController.m */; };
+		5DFC549511B0890C0004DCE4 /* LoanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC549411B0890C0004DCE4 /* LoanTableViewCell.m */; };
+		5DFC551C11B095AC0004DCE4 /* LoanEventScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC551B11B095AC0004DCE4 /* LoanEventScheduler.m */; };
+		5DFC552211B096510004DCE4 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFC552111B096510004DCE4 /* EventKit.framework */; };
+		5DFC552411B096510004DCE4 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFC552311B096510004DCE4 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SharksterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharksterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SharksterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharksterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sharkster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharkster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* Sharkster.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Sharkster.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Sharkster_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sharkster_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		347CC7CB11B09229002D91F6 /* PaymentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentTableViewCell.h; sourceTree = "<group>"; };
+		347CC7CC11B09229002D91F6 /* PaymentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentTableViewCell.m; sourceTree = "<group>"; };
+		347CC7EB11B0940F002D91F6 /* PaymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
+		34EC7E3D11B04A7B009872FC /* LoanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanCell.xib; sourceTree = "<group>"; };
+		5D28D6A211AC421300CCCB34 /* LoanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanViewController.h; sourceTree = "<group>"; };
+		5D28D6A311AC421300CCCB34 /* LoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanViewController.m; sourceTree = "<group>"; };
+		5D28D6A411AC421300CCCB34 /* LoanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoanViewController.xib; path = Classes/LoanViewController.xib; sourceTree = "<group>"; };
+		5D28D76B11AC4CCF00CCCB34 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		5D28D8F111AC70EE00CCCB34 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5D28D93F11AC758600CCCB34 /* LoanDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanDetails.xib; sourceTree = "<group>"; };
+		5D28DAF311AC9BE000CCCB34 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		5D28DAF411AC9BE000CCCB34 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		5D28DAF511AC9BE000CCCB34 /* DatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DatePickerViewController.xib; path = Classes/DatePickerViewController.xib; sourceTree = "<group>"; };
+		5D28DD1C11ADBF6E00CCCB34 /* NumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberViewController.h; sourceTree = "<group>"; };
+		5D28DD1D11ADBF6E00CCCB34 /* NumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberViewController.m; sourceTree = "<group>"; };
+		5D28DD1E11ADBF6E00CCCB34 /* NumberViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NumberViewController.xib; path = Classes/NumberViewController.xib; sourceTree = "<group>"; };
+		5D28DF1311ADF7FB00CCCB34 /* LoanLengthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanLengthViewController.h; sourceTree = "<group>"; };
+		5D28DF1411ADF7FB00CCCB34 /* LoanLengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanLengthViewController.m; sourceTree = "<group>"; };
+		5D50EDE711AF400A00667FE4 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		5D50EDE811AF400A00667FE4 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		5D50EDEC11AF402600667FE4 /* Loan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
+		5D50EDED11AF402600667FE4 /* Loan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loan.m; sourceTree = "<group>"; };
+		5D50EDFF11AF4A1600667FE4 /* PaymentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentPickerViewController.h; sourceTree = "<group>"; };
+		5D50EE0011AF4A1600667FE4 /* PaymentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentPickerViewController.m; sourceTree = "<group>"; };
+		5D50EE0111AF4A1600667FE4 /* PaymentPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PaymentPickerViewController.xib; path = Classes/PaymentPickerViewController.xib; sourceTree = "<group>"; };
+		5DFC535911B05BD50004DCE4 /* PaymentScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentScheduleViewController.h; sourceTree = "<group>"; };
+		5DFC535A11B05BD50004DCE4 /* PaymentScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentScheduleViewController.m; sourceTree = "<group>"; };
+		5DFC549311B0890C0004DCE4 /* LoanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanTableViewCell.h; sourceTree = "<group>"; };
+		5DFC549411B0890C0004DCE4 /* LoanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanTableViewCell.m; sourceTree = "<group>"; };
+		5DFC551A11B095AC0004DCE4 /* LoanEventScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoanEventScheduler.h; path = Classes/LoanEventScheduler.h; sourceTree = "<group>"; };
+		5DFC551B11B095AC0004DCE4 /* LoanEventScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoanEventScheduler.m; path = Classes/LoanEventScheduler.m; sourceTree = "<group>"; };
+		5DFC552111B096510004DCE4 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		5DFC552311B096510004DCE4 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Sharkster-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sharkster-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				5D28D76C11AC4CCF00CCCB34 /* AddressBookUI.framework in Frameworks */,
+				5D28D8F211AC70EE00CCCB34 /* AddressBook.framework in Frameworks */,
+				5DFC552211B096510004DCE4 /* EventKit.framework in Frameworks */,
+				5DFC552411B096510004DCE4 /* EventKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* SharksterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SharksterAppDelegate.m */,
+				5D28D6A211AC421300CCCB34 /* LoanViewController.h */,
+				5D28D6A311AC421300CCCB34 /* LoanViewController.m */,
+				5DFC549311B0890C0004DCE4 /* LoanTableViewCell.h */,
+				5DFC549411B0890C0004DCE4 /* LoanTableViewCell.m */,
+				5D28DAF311AC9BE000CCCB34 /* DatePickerViewController.h */,
+				5D28DAF411AC9BE000CCCB34 /* DatePickerViewController.m */,
+				5D28DD1C11ADBF6E00CCCB34 /* NumberViewController.h */,
+				5D28DD1D11ADBF6E00CCCB34 /* NumberViewController.m */,
+				5D50EDFF11AF4A1600667FE4 /* PaymentPickerViewController.h */,
+				5D50EE0011AF4A1600667FE4 /* PaymentPickerViewController.m */,
+				5D28DF1311ADF7FB00CCCB34 /* LoanLengthViewController.h */,
+				5D28DF1411ADF7FB00CCCB34 /* LoanLengthViewController.m */,
+				5DFC535911B05BD50004DCE4 /* PaymentScheduleViewController.h */,
+				5DFC535A11B05BD50004DCE4 /* PaymentScheduleViewController.m */,
+				347CC7CB11B09229002D91F6 /* PaymentTableViewCell.h */,
+				347CC7CC11B09229002D91F6 /* PaymentTableViewCell.m */,
+			);
+			name = "Supporting Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sharkster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5D28E13311AECD4000CCCB34 /* EventKit Stuff */,
+				080E96DDFE201D6D7F000001 /* Supporting Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Sharkster_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				347CC7EB11B0940F002D91F6 /* PaymentCell.xib */,
+				34EC7E3D11B04A7B009872FC /* LoanCell.xib */,
+				5D28DAF511AC9BE000CCCB34 /* DatePickerViewController.xib */,
+				5D28DD1E11ADBF6E00CCCB34 /* NumberViewController.xib */,
+				5D50EE0111AF4A1600667FE4 /* PaymentPickerViewController.xib */,
+				5D28D6A411AC421300CCCB34 /* LoanViewController.xib */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				5D28D93F11AC758600CCCB34 /* LoanDetails.xib */,
+				28D3F201112F7DC200FD0661 /* Sharkster.xcdatamodeld */,
+				8D1107310486CEB800E47090 /* Sharkster-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+				5D28D76B11AC4CCF00CCCB34 /* AddressBookUI.framework */,
+				5D28D8F111AC70EE00CCCB34 /* AddressBook.framework */,
+				5DFC552111B096510004DCE4 /* EventKit.framework */,
+				5DFC552311B096510004DCE4 /* EventKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D28E13311AECD4000CCCB34 /* EventKit Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				5DFC551A11B095AC0004DCE4 /* LoanEventScheduler.h */,
+				5DFC551B11B095AC0004DCE4 /* LoanEventScheduler.m */,
+			);
+			name = "EventKit Stuff";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sharkster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sharkster" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharkster;
+			productName = LoanShark;
+			productReference = 1D6058910D05DD3D006BFB54 /* Sharkster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sharkster" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sharkster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				5D28D6A611AC421300CCCB34 /* LoanViewController.xib in Resources */,
+				5D28D94011AC758600CCCB34 /* LoanDetails.xib in Resources */,
+				5D28DAF711AC9BE000CCCB34 /* DatePickerViewController.xib in Resources */,
+				5D28DD2011ADBF6E00CCCB34 /* NumberViewController.xib in Resources */,
+				5D50EE0311AF4A1600667FE4 /* PaymentPickerViewController.xib in Resources */,
+				34EC7E3E11B04A7B009872FC /* LoanCell.xib in Resources */,
+				347CC7EC11B0940F002D91F6 /* PaymentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SharksterAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28D3F202112F7DC200FD0661 /* Sharkster.xcdatamodeld in Sources */,
+				5D28D6A511AC421300CCCB34 /* LoanViewController.m in Sources */,
+				5D28DAF611AC9BE000CCCB34 /* DatePickerViewController.m in Sources */,
+				5D28DD1F11ADBF6E00CCCB34 /* NumberViewController.m in Sources */,
+				5D28DF1511ADF7FB00CCCB34 /* LoanLengthViewController.m in Sources */,
+				5D50EDE911AF400A00667FE4 /* Payment.m in Sources */,
+				5D50EDEE11AF402600667FE4 /* Loan.m in Sources */,
+				5D50EE0211AF4A1600667FE4 /* PaymentPickerViewController.m in Sources */,
+				5DFC535B11B05BD50004DCE4 /* PaymentScheduleViewController.m in Sources */,
+				5DFC549511B0890C0004DCE4 /* LoanTableViewCell.m in Sources */,
+				347CC7CD11B09229002D91F6 /* PaymentTableViewCell.m in Sources */,
+				5DFC551C11B095AC0004DCE4 /* LoanEventScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sharkster_Prefix.pch;
+				INFOPLIST_FILE = "Sharkster-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Sharkster;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sharkster_Prefix.pch;
+				INFOPLIST_FILE = "Sharkster-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = LoanShark;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sharkster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sharkster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* Sharkster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D50EDEC11AF402600667FE4 /* Loan.h */,
+				5D50EDED11AF402600667FE4 /* Loan.m */,
+				5D50EDE711AF400A00667FE4 /* Payment.h */,
+				5D50EDE811AF400A00667FE4 /* Payment.m */,
+				28860B760F44E54D00985440 /* Sharkster.xcdatamodel */,
+			);
+			currentVersion = 28860B760F44E54D00985440 /* Sharkster.xcdatamodel */;
+			path = Sharkster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

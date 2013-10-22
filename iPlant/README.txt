@@ -1,0 +1,1 @@
+Making beautifully animated interfaces is easier than ever.  I this example, you'll see the adoption of the new UIView Animations with Blocks API into an app.  We'll start with an interface devoid of animations and make it come to life with just a few lines of code. 

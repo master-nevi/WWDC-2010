@@ -1,0 +1,16 @@
+{
+    "fieldSep": "\t", 
+    "recordSep": "\n", 
+    "dbHost": "localhost", 
+    "dbName": "epf", 
+    "dbUser": "epfimporter", 
+    "dbPassword": "epf123", 
+    "tablePrefix": "epfflat", 
+    "allowExtensions": true, 
+    "blackList": [
+        "^\\."
+    ], 
+    "whiteList": [
+        ".*?"
+    ]
+}

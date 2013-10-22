@@ -1,0 +1,152 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf290
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+\margl1440\margr1440\vieww13860\viewh19660\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \
+
+\b\fs28 EPFImporter
+\b0\fs24 \
+\
+
+\b Note on security\
+\
+
+\b0 For simplicity, the username and password used by EPFImporter to connect to the MySQL database are stored as plaintext in the EPFConfigFull.json and EPFConfigIncremental.json files. Alternatively, they can passed in as options on the command line, again in plaintext.\
+\
+The best security that can be provided under this implementation is to restrict access to the files themselves.  A more thorough security model would depend on the needs of the user and the platform EPFImporter is being deployed on, and is outside the scope of this sample code and documentation.
+\b \
+\
+Files
+\b0 \
+\
+EPFImporter.py is executable from the command line, and is the entry point for running EPFImporter. The other Python files (EPFIngester.py and EPFParser.py) must be present in the same directory, but will not normally be used directly.\
+\
+EPFImporter also references certain configuration files (EPFConfig.json, EPFFlatConfig.json, EPFLogger.conf) which must also be in the same directory. These files can be edited by the user as needed. If they are removed or renamed, they will be re-created with default values by EPFImporter the next time it is run.\
+\
+
+\b Command-line help
+\b0 \
+\
+Typing './EPFImporter.py -h' at the command line (assuming you are in the same directory as EPFImporter.py) will print a usage and help description, including less-used options not described in this document.\
+\
+
+\b Running EPFImporter
+\b0 \
+\
+To run EPFImporter, you must first have downloaded and uncompressed one or more EPF feeds. Once you have done so, simply run EPFImporter.py with a space-separated list of the uncompressed feed directories as arguments:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1 \cf0 ./EPFImporter.py /Users/EPF/Fulls/itunes20100423 /Users/EPF/Fulls/pricing20100423
+\f0 \
+\
+Assuming the specified directories exist, the above will cause EPFImporter to perform an import of the itunes and pricing feeds from 4/23/2010. No prior setup of the database is necessary; EPFImporter will create and configure all tables as needed based on the metadata in the EPF files.\
+\
+EPFImporter will automatically determine each file is a Full or Incremental export, and perform the corresponding import type. Note that for an Incremental import to succeed, tables corresponding to the imported files must already exist in the database (normally from a previous Full import).\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Importing EPF Flat files
+\b0 \
+\
+To import EPF Flat files, pass the -f flag. This will cause EPFImporter to use values from EPFFlatConfig.json, corresponding to the different file format of the EPF Flat exports.\
+\
+
+\b Restricting the files to be imported\
+
+\b0 \
+You can restrict which files are imported using the -w (whitelist) and -b (blacklist) flags. The string following the flag is treated as a regular expression, and is appended to a list of such expressions.\
+\
+./EFImporter.py -w 'song' -b 'translation' /Users/EPF/Fulls/itunes20100423\
+\
+The above will import all files containing "song" anywhere in the filename, except for those containing "translation".\
+\
+If a filename is matched by both the whitelist and blacklist, the blacklist always overrides, and the file will not be imported.\
+\
+To add more than one whitelist or blacklist string, pass multiple -w or -b options:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1 \cf0 ./EFImporter.py -w 'song' -w 'video' -b 'application' -b 'collection' /Users/EPF/Fulls/itunes20100423
+\f0 \
+\
+Regular expressions can be very complex, containing many characters with special meanings. The special characters which are most commonly useful with EPF are the following:\
+\
+^	Matches the beginning of a string\
+$	Matches the end of a string\
+.	Matches any single character\
+*	Matches any number, including zero, of the preceeding character\
+\
+Here are some examples of the above and which files would be imported (or excluded, if in the blacklist) by EPFImporter:\
+\
+'^song$'		only the exact file "song"\
+'^song'		any file beginning with "song" (e.g. song, song_mix, song_imix)\
+'song$'		any file ending with "song" (e.g. song, artist_song)\
+'^song.*mix$	'	any file beginning with "song" and ending with "mix" (eg. song_mix, song_imix)\
+\
+If you wish to restrict files for every import, you can do so by editing the whiteList and blackList lines in the appropriate EPFConfig.json or EPFFlatConfig.json file\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Resuming interrupted imports
+\b0 \
+\
+The progress of the last import is stored in EPFSnapshot.json. If an import is interrupted for any reason (e.g. a power outage), EPFImporter can use this file to automatically resume the import where it left off. To resume an import, simply pass the -r flag. No other arguments are needed:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1 \cf0 ./EPFImporter.py -r
+\f0 \
+\
+EPFImporter will resume the import from the beginning of whichever file was interrupted, and continue through the rest of the unimported, respecting any -w and -b flags that were passed during the original run.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Logging
+\b0 \
+\
+The output of EPFImporter is logged both to the console and to a file. When EPFImporter is first run, it creates an EPFLog directory. Each run creates a separate log file. The latest log will be called EPFLog.log; when a new run is begun, the previous log is appended with a date-time stamp.\
+\
+Logging options can be configured by editing the file EPFLogger.conf\
+\
+
+\b\fs28 Notes on how imports are performed
+\b0\fs24 \
+\
+
+\b Full Imports
+\b0 \
+\
+Since Full feeds contain a complete snapshot of the EPF data, Full imports are designed to import the new data and replace the old data as efficiently as possible.\
+\
+For each file in a Full import, EPFImporter creates a new, temporary table in the database and populates it with the data in the file. When the import completes successfully, it 
+\i renames
+\i0  the previous table (if it exists), then renames the new table to match the old one. Finally it drops the old table from the database.\
+\
+This process means that any access being made to the table at the moment the "swap" takes place will fail.\
+\
+
+\b Incremental Imports
+\b0 \
+\
+Incremental feeds contain data which has changed (or been added) since the last Full feed. Since Incremental imports must merge new data with existing data, they are more complex than Full imports.\
+\
+Normally an Incremental import works by comparing the primary key of the row to be imported with the existing table. If no matching record exists, the new row is inserted; if a matching record is found, the new record replaces it.\
+\
+Unfortunately, for large files this process is inefficient. Therefore, for Incremental files containing more than 500,000 records, EPFImporter uses a different method. This is similar to the Full import, but instead of replacing the old table, the old and new tables are merged into a third, temporary table via a complex union operation in the database. This table is then "swapped" with the existing table in the same manner as for a Full import.\
+\
+\
+\pard\pardeftab720\ql\qnatural
+
+\f2 \cf0 Copyright \'a9 2010 Apple\'a0 Inc. All rights reserved.\
+\
+IMPORTANT:\'a0 This Apple software is supplied to you by Apple Inc. (\'93Apple\'94) in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this Apple software constitutes acceptance of these terms.\'a0 If you do not agree with these terms, please do not use, install, modify or redistribute this Apple software.\
+\
+In consideration of your agreement to abide by the following terms, and subject to these terms, Apple grants you a personal, non-exclusive license, under Apple\'92s copyrights in this original Apple software (the \'93Apple Software\'94),\cf2 \'a0to use, reproduce, modify and redistribute the Apple Software, with or without modifications, in source and/or binary forms; provided that if you redistribute the Apple Software in its entirety and without modifications, you must retain this notice and the following text and disclaimers in all such redistributions of the Apple Software.\'a0\cf0 \'a0Neither the name, trademarks, service marks or logos of Apple Inc. may be used to endorse or promote products derived from the Apple Software without specific prior written permission from Apple.\'a0 Except as expressly stated in this notice, no other rights or licenses, express or implied, are granted by Apple herein, including but not limited to any patent rights that may be infringed by your derivative works or by other works in which the Apple Software may be incorporated.\
+\
+The Apple Software is provided by Apple on an "AS IS" basis.\'a0 APPLE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.\'a0\
+\
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.}

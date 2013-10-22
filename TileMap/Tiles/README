@@ -1,0 +1,6 @@
+Tiles in this directory were created using the gdal2tiles utility using NOAA
+raster navigation charts.  You can delete the tiles and replace them with your
+own to change the map displayed.
+
+http://www.gdal.org/gdal2tiles.html
+http://www.charts.noaa.gov/

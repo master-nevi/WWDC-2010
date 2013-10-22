@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PlantAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PlantAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* Plant_O_MaticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Plant_O_MaticViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PlantViewController.m */; };
+		A714D82711B02A7200CE2E6C /* flat.png in Resources */ = {isa = PBXBuildFile; fileRef = A714D82611B02A7200CE2E6C /* flat.png */; };
+		A714D91511B0495800CE2E6C /* drips.png in Resources */ = {isa = PBXBuildFile; fileRef = A714D91411B0495800CE2E6C /* drips.png */; };
+		A72F9425119CB778003FD736 /* carrot.png in Resources */ = {isa = PBXBuildFile; fileRef = A72F9421119CB778003FD736 /* carrot.png */; };
+		A72F9426119CB778003FD736 /* onion.png in Resources */ = {isa = PBXBuildFile; fileRef = A72F9422119CB778003FD736 /* onion.png */; };
+		A72F9427119CB778003FD736 /* sprout.png in Resources */ = {isa = PBXBuildFile; fileRef = A72F9423119CB778003FD736 /* sprout.png */; };
+		A72F9428119CB778003FD736 /* radish.png in Resources */ = {isa = PBXBuildFile; fileRef = A72F9424119CB778003FD736 /* radish.png */; };
+		A72F94E9119CBB9A003FD736 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72F94E8119CBB9A003FD736 /* QuartzCore.framework */; };
+		A7CE9033119A2AE20065BE56 /* PlantCareView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE9032119A2AE20065BE56 /* PlantCareView.m */; };
+		A7CE9083119B0C360065BE56 /* WheelCover.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE907E119B0C360065BE56 /* WheelCover.png */; };
+		A7CE9194119B15470065BE56 /* lcd.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE9192119B15470065BE56 /* lcd.png */; };
+		A7CE9361119B32E50065BE56 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE9360119B32E50065BE56 /* water.png */; };
+		A7CE9450119B3B3F0065BE56 /* ucarrot.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE944C119B3B3F0065BE56 /* ucarrot.png */; };
+		A7CE9451119B3B3F0065BE56 /* uradish.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE944D119B3B3F0065BE56 /* uradish.png */; };
+		A7CE9452119B3B3F0065BE56 /* usprout.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE944E119B3B3F0065BE56 /* usprout.png */; };
+		A7CE9453119B3B3F0065BE56 /* uonion.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE944F119B3B3F0065BE56 /* uonion.png */; };
+		A7DD42AF11A731CB00D620FE /* RoboGardener.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD42AE11A731CB00D620FE /* RoboGardener.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PlantAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PlantAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Plant-O-Matic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant-O-Matic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* Plant_O_MaticViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Plant_O_MaticViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PlantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PlantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Plant_O_Matic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant_O_Matic_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Plant_O_Matic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Plant_O_Matic-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A714D82611B02A7200CE2E6C /* flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flat.png; sourceTree = "<group>"; };
+		A714D91411B0495800CE2E6C /* drips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drips.png; sourceTree = "<group>"; };
+		A72F9421119CB778003FD736 /* carrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrot.png; sourceTree = "<group>"; };
+		A72F9422119CB778003FD736 /* onion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onion.png; sourceTree = "<group>"; };
+		A72F9423119CB778003FD736 /* sprout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprout.png; sourceTree = "<group>"; };
+		A72F9424119CB778003FD736 /* radish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radish.png; sourceTree = "<group>"; };
+		A72F94E8119CBB9A003FD736 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7CE9031119A2AE20065BE56 /* PlantCareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantCareView.h; sourceTree = "<group>"; };
+		A7CE9032119A2AE20065BE56 /* PlantCareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantCareView.m; sourceTree = "<group>"; };
+		A7CE907E119B0C360065BE56 /* WheelCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WheelCover.png; sourceTree = "<group>"; };
+		A7CE9192119B15470065BE56 /* lcd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcd.png; sourceTree = "<group>"; };
+		A7CE9360119B32E50065BE56 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		A7CE944C119B3B3F0065BE56 /* ucarrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucarrot.png; sourceTree = "<group>"; };
+		A7CE944D119B3B3F0065BE56 /* uradish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uradish.png; sourceTree = "<group>"; };
+		A7CE944E119B3B3F0065BE56 /* usprout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usprout.png; sourceTree = "<group>"; };
+		A7CE944F119B3B3F0065BE56 /* uonion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uonion.png; sourceTree = "<group>"; };
+		A7DD42AD11A731CB00D620FE /* RoboGardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboGardener.h; sourceTree = "<group>"; };
+		A7DD42AE11A731CB00D620FE /* RoboGardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoboGardener.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				A72F94E9119CBB9A003FD736 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PlantAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PlantAppDelegate.m */,
+				A7CE9031119A2AE20065BE56 /* PlantCareView.h */,
+				A7CE9032119A2AE20065BE56 /* PlantCareView.m */,
+				A786F0F011A9EB490044C045 /* Other Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Plant-O-Matic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Plant_O_Matic_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A714D91411B0495800CE2E6C /* drips.png */,
+				A714D82611B02A7200CE2E6C /* flat.png */,
+				A72F9421119CB778003FD736 /* carrot.png */,
+				A72F9422119CB778003FD736 /* onion.png */,
+				A72F9423119CB778003FD736 /* sprout.png */,
+				A72F9424119CB778003FD736 /* radish.png */,
+				A7CE944C119B3B3F0065BE56 /* ucarrot.png */,
+				A7CE944D119B3B3F0065BE56 /* uradish.png */,
+				A7CE944E119B3B3F0065BE56 /* usprout.png */,
+				A7CE944F119B3B3F0065BE56 /* uonion.png */,
+				A7CE9360119B32E50065BE56 /* water.png */,
+				A7CE9192119B15470065BE56 /* lcd.png */,
+				A7CE907E119B0C360065BE56 /* WheelCover.png */,
+				2899E5210DE3E06400AC0155 /* Plant_O_MaticViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Plant_O_Matic-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				A72F94E8119CBB9A003FD736 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A786F0F011A9EB490044C045 /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* PlantViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PlantViewController.m */,
+				A7DD42AD11A731CB00D620FE /* RoboGardener.h */,
+				A7DD42AE11A731CB00D620FE /* RoboGardener.m */,
+			);
+			name = "Other Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Plant-O-Matic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Plant-O-Matic" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant-O-Matic";
+			productName = "Plant-O-Matic";
+			productReference = 1D6058910D05DD3D006BFB54 /* Plant-O-Matic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPlant" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Plant-O-Matic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Plant_O_MaticViewController.xib in Resources */,
+				A7CE9083119B0C360065BE56 /* WheelCover.png in Resources */,
+				A7CE9194119B15470065BE56 /* lcd.png in Resources */,
+				A7CE9361119B32E50065BE56 /* water.png in Resources */,
+				A7CE9450119B3B3F0065BE56 /* ucarrot.png in Resources */,
+				A7CE9451119B3B3F0065BE56 /* uradish.png in Resources */,
+				A7CE9452119B3B3F0065BE56 /* usprout.png in Resources */,
+				A7CE9453119B3B3F0065BE56 /* uonion.png in Resources */,
+				A72F9425119CB778003FD736 /* carrot.png in Resources */,
+				A72F9426119CB778003FD736 /* onion.png in Resources */,
+				A72F9427119CB778003FD736 /* sprout.png in Resources */,
+				A72F9428119CB778003FD736 /* radish.png in Resources */,
+				A714D82711B02A7200CE2E6C /* flat.png in Resources */,
+				A714D91511B0495800CE2E6C /* drips.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PlantAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PlantViewController.m in Sources */,
+				A7CE9033119A2AE20065BE56 /* PlantCareView.m in Sources */,
+				A7DD42AF11A731CB00D620FE /* RoboGardener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Plant_O_Matic_Prefix.pch;
+				INFOPLIST_FILE = "Plant_O_Matic-Info.plist";
+				PRODUCT_NAME = "Plant-O-Matic";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Plant_O_Matic_Prefix.pch;
+				INFOPLIST_FILE = "Plant_O_Matic-Info.plist";
+				PRODUCT_NAME = "Plant-O-Matic";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Plant-O-Matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

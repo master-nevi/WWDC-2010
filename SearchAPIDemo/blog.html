@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+    File: blog.html
+Abstract: n/a
+ Version: 1.0
+
+Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
+Inc. ("Apple") in consideration of your agreement to the following
+terms, and your use, installation, modification or redistribution of
+this Apple software constitutes acceptance of these terms.  If you do
+not agree with these terms, please do not use, install, modify or
+redistribute this Apple software.
+
+In consideration of your agreement to abide by the following terms, and
+subject to these terms, Apple grants you a personal, non-exclusive
+license, under Apple's copyrights in this original Apple software (the
+"Apple Software"), to use, reproduce, modify and redistribute the Apple
+Software, with or without modifications, in source and/or binary forms;
+provided that if you redistribute the Apple Software in its entirety and
+without modifications, you must retain this notice and the following
+text and disclaimers in all such redistributions of the Apple Software.
+Neither the name, trademarks, service marks or logos of Apple Inc. may
+be used to endorse or promote products derived from the Apple Software
+without specific prior written permission from Apple.  Except as
+expressly stated in this notice, no other rights or licenses, express or
+implied, are granted by Apple herein, including but not limited to any
+patent rights that may be infringed by your derivative works or by other
+works in which the Apple Software may be incorporated.
+
+The Apple Software is provided by Apple on an "AS IS" basis.  APPLE
+MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
+OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
+
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
+MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
+AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
+STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (C) 2010 Apple Inc. All Rights Reserved.
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>iTunes Affiliate Program Sample Code</title>
+
+<link rel="stylesheet" href="blog.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery.1.2.4b.js" ></script>
+<script type="text/javascript" src="jquery.ba-getobject.min.js" ></script>
+<script type="text/javascript" src="affiliateLink.js" ></script>
+
+<!-- SEARCH API IMPORTS -->
+<link rel="stylesheet" type="text/css" href="searchWidget.css" />
+<script type="text/javascript" src="searchWidget.js" ></script>
+<!-- END SEARCH API IMPORTS -->
+
+<!-- RSS IMPORTS -->
+<link rel="stylesheet" href="rssFeed.css" type="text/css" media="screen" />
+<script type="text/javascript" src="rssFeed.js" ></script>
+<!-- END RSS IMPORTS -->
+
+</head>
+<body>
+
+<!-- AFFILIATE DEFINITIONS -->
+<script>
+  var partnerId = 30;
+  var urlPrefix = "http://click.linksynergy.com/fs-bin/stat?id=ZaKW9GzSFlk&offerid=94348&type=3&subid=0&tmpid=2192&RD_PARM1=";
+</script>
+<!-- END AFFILIATE DEFINITIONS -->
+
+<!-- SEARCH API -->
+<div id="itmsSearchWidget">
+  <div class="header">
+    <form id="itmsSearch" action="" onsubmit="return doSearch(10, partnerId, urlPrefix);">
+      <input type="submit" value="Search iTunes" style="float: right;" />
+      <input type="text" id="itmsSearchTerm" name="term" placeholder="Enter a Search Term Here" />
+      <div id="itmsSearchHints" ></div>
+    </form>
+  </div>
+  <div id="itmsSearchResults"></div>    
+
+  <div id="itmsSearchWidgetFooter">
+      <a href="" title="Open iTunes to see more search results">More Search Results 
+        <img src="http://ax.phobos.apple.com.edgesuite.net/images/linkmaker/arrow_999999_r.gif" ></a>
+  </div>
+</div>
+<!-- END SEARCH API -->
+
+<!-- ITUNES RSS HTML CODE -->
+  <div id="rss-content" style="align: center;">
+  <script>
+    var rssFeed = "http://itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topalbums/sf=143441/genre=20/limit=10/json"; // top Alternative songs
+
+    rss.getSimplifiedFeed(rssFeed, partnerId, urlPrefix, rss.htmlElementForSimpleFeedEntry, function(data) { 
+        console.debug("Pulled back simple data: ", data); 
+        $.each(data, function(i, entry) { 
+			if (i > 5) return false;
+			$("div#rss-content").append(entry);
+		});
+	});
+  </script>
+</div>
+<!-- END ITUNES RSS HTML CODE -->
+
+<div id="page">
+
+
+<div id="header">
+    <div id="headerTitle">
+        <h1>iTunes Affiliate Program Tools</a></h1>
+        <div class="description">Sample Code Demonstrating the Usage of RSS and Search APIs</div>
+    </div>
+</div>
+<hr />
+
+    <div id="content">
+
+    
+        <div class="blogEntry">
+            <h2>Blog Entry 1</h2>
+
+            <div class="entry">
+        Abluo opes ex caecus, quadrum abbas augue gilvus caecus. Gemino reprobo cogo iustum neo typicus brevitas sed hendrerit. Duis, ille accumsan qui tation ideo, nisl te. Epulae gilvus nostrud mauris tincidunt vel, ille vero delenit caecus odio, nibh blandit. <p>
+
+        Minim ideo haero ad volutpat, eum sed, quae obruo regula, quis appellatio iriure vero, rusticus. Nunc suscipit odio, iusto sed aliquip, consequat oppeto sudo capto sino et consequat, lobortis vulpes. Autem comis ut incassum nibh haero vel qui plaga in. Mos sagaciter lenis vereor autem feugait vel epulae ut ventosus melior in ymo. Quidne ludus augue commodo nutus, sudo uxor autem esse appellatio. Erat duis tego quis, in vindico ventosus luptatum venio feugait tum vicis vel ex duis. <p>
+
+        At neo reprobo singularis, qui molior ea luptatum, autem abluo autem feugait modo importunus nutus. Aptent nutus metuo enim at abluo. Tation nimis paulatim paulatim venio quia probo hendrerit typicus. Interdico commoveo magna abbas tristique quidem. Quadrum sit occuro paratus, persto aliquam, lobortis, enim distineo, accumsan brevitas praesent dolus. <p>
+
+        </div>
+	</div>
+        <div class="blogEntry">
+            <h2>Blog Entry 2</h2>
+
+            <div class="entry">
+        Abluo opes ex caecus, quadrum abbas augue gilvus caecus. Gemino reprobo cogo iustum neo typicus brevitas sed hendrerit. Duis, ille accumsan qui tation ideo, nisl te. Epulae gilvus nostrud mauris tincidunt vel, ille vero delenit caecus odio, nibh blandit. <p>
+
+        Minim ideo haero ad volutpat, eum sed, quae obruo regula, quis appellatio iriure vero, rusticus. Nunc suscipit odio, iusto sed aliquip, consequat oppeto sudo capto sino et consequat, lobortis vulpes. Autem comis ut incassum nibh haero vel qui plaga in. Mos sagaciter lenis vereor autem feugait vel epulae ut ventosus melior in ymo. Quidne ludus augue commodo nutus, sudo uxor autem esse appellatio. Erat duis tego quis, in vindico ventosus luptatum venio feugait tum vicis vel ex duis. <p>
+
+        At neo reprobo singularis, qui molior ea luptatum, autem abluo autem feugait modo importunus nutus. Aptent nutus metuo enim at abluo. Tation nimis paulatim paulatim venio quia probo hendrerit typicus. Interdico commoveo magna abbas tristique quidem. Quadrum sit occuro paratus, persto aliquam, lobortis, enim distineo, accumsan brevitas praesent dolus. <p>
+
+        </div>
+
+</div>
+
+
+    
+    </div>
+
+</div>
+
+
+        </body>
+</html>
+

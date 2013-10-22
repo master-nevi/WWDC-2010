@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MyImagePickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MyImagePickerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		CC00DF6811BA21AD00C59FA7 /* TapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC00DF6711BA21AD00C59FA7 /* TapDetectingImageView.m */; };
+		CC00DFA511BA26BD00C59FA7 /* ThumbnailHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFA411BA26BD00C59FA7 /* ThumbnailHighlight.png */; };
+		CC99FE5111B08EA200A2E5B6 /* AlbumContentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC99FE5011B08EA200A2E5B6 /* AlbumContentsTableViewCell.m */; };
+		CCBD92F611B0227F00E904DF /* AlbumContentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBD92F511B0227F00E904DF /* AlbumContentsViewController.xib */; };
+		CCBD92F811B022BF00E904DF /* PhotoDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBD92F711B022BF00E904DF /* PhotoDisplayViewController.xib */; };
+		CCBD932811B030BE00E904DF /* AlbumContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBD932711B030BE00E904DF /* AlbumContentsViewController.m */; };
+		CCBD932B11B030DD00E904DF /* PhotoDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBD932A11B030DD00E904DF /* PhotoDisplayViewController.m */; };
+		CCBD941011B070BD00E904DF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBD940F11B070BD00E904DF /* AssetsLibrary.framework */; };
+		CCBD943D11B072BA00E904DF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBD943C11B072BA00E904DF /* Icon.png */; };
+		CCC68B3211B42AB800FA3B94 /* AlbumContentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC68B3111B42AB800FA3B94 /* AlbumContentsTableViewCell.xib */; };
+		CCE4318D11B978D4000D565F /* ThumbnailImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4318C11B978D4000D565F /* ThumbnailImageView.m */; };
+		CCFDDC8E11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFDDC8C11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.m */; };
+		CCFDDC8F11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFDDC8D11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MyImagePickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImagePickerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MyImagePickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImagePickerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MyImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MyImagePicker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImagePicker_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MyImagePicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyImagePicker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CC00DF0711B9FDF400C59FA7 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		CC00DF6611BA21AD00C59FA7 /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingImageView.h; sourceTree = "<group>"; };
+		CC00DF6711BA21AD00C59FA7 /* TapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingImageView.m; sourceTree = "<group>"; };
+		CC00DFA411BA26BD00C59FA7 /* ThumbnailHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ThumbnailHighlight.png; path = Resources/ThumbnailHighlight.png; sourceTree = "<group>"; };
+		CC99FE4F11B08EA200A2E5B6 /* AlbumContentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumContentsTableViewCell.h; sourceTree = "<group>"; };
+		CC99FE5011B08EA200A2E5B6 /* AlbumContentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumContentsTableViewCell.m; sourceTree = "<group>"; };
+		CCBD92F511B0227F00E904DF /* AlbumContentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumContentsViewController.xib; sourceTree = "<group>"; };
+		CCBD92F711B022BF00E904DF /* PhotoDisplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDisplayViewController.xib; sourceTree = "<group>"; };
+		CCBD932611B030BE00E904DF /* AlbumContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumContentsViewController.h; sourceTree = "<group>"; };
+		CCBD932711B030BE00E904DF /* AlbumContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumContentsViewController.m; sourceTree = "<group>"; };
+		CCBD932911B030DD00E904DF /* PhotoDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDisplayViewController.h; sourceTree = "<group>"; };
+		CCBD932A11B030DD00E904DF /* PhotoDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDisplayViewController.m; sourceTree = "<group>"; };
+		CCBD940F11B070BD00E904DF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CCBD943C11B072BA00E904DF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		CCC68B3111B42AB800FA3B94 /* AlbumContentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumContentsTableViewCell.xib; sourceTree = "<group>"; };
+		CCE4318B11B978D4000D565F /* ThumbnailImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailImageView.h; sourceTree = "<group>"; };
+		CCE4318C11B978D4000D565F /* ThumbnailImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailImageView.m; sourceTree = "<group>"; };
+		CCFDDC8B11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssetsDataIsInaccessibleViewController.h; path = ../AssetsDataIsInaccessibleViewController.h; sourceTree = "<group>"; };
+		CCFDDC8C11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssetsDataIsInaccessibleViewController.m; path = ../AssetsDataIsInaccessibleViewController.m; sourceTree = "<group>"; };
+		CCFDDC8D11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetsDataIsInaccessibleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				CCBD941011B070BD00E904DF /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC00DFA711BA26D600C59FA7 /* Adittional Views and Cells */,
+				1D3623240D0F684500981E51 /* MyImagePickerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MyImagePickerAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				CCBD932611B030BE00E904DF /* AlbumContentsViewController.h */,
+				CCBD932711B030BE00E904DF /* AlbumContentsViewController.m */,
+				CCBD932911B030DD00E904DF /* PhotoDisplayViewController.h */,
+				CCBD932A11B030DD00E904DF /* PhotoDisplayViewController.m */,
+				CCFDDC8B11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.h */,
+				CCFDDC8C11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MyImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CCBD940F11B070BD00E904DF /* AssetsLibrary.framework */,
+				CC00DF0711B9FDF400C59FA7 /* QuickLook.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MyImagePicker_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC00DFA411BA26BD00C59FA7 /* ThumbnailHighlight.png */,
+				CCBD943C11B072BA00E904DF /* Icon.png */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MyImagePicker-Info.plist */,
+				CCBD92F511B0227F00E904DF /* AlbumContentsViewController.xib */,
+				CCBD92F711B022BF00E904DF /* PhotoDisplayViewController.xib */,
+				CCC68B3111B42AB800FA3B94 /* AlbumContentsTableViewCell.xib */,
+				CCFDDC8D11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC00DFA711BA26D600C59FA7 /* Adittional Views and Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CC99FE4F11B08EA200A2E5B6 /* AlbumContentsTableViewCell.h */,
+				CC99FE5011B08EA200A2E5B6 /* AlbumContentsTableViewCell.m */,
+				CC00DF6611BA21AD00C59FA7 /* TapDetectingImageView.h */,
+				CC00DF6711BA21AD00C59FA7 /* TapDetectingImageView.m */,
+				CCE4318B11B978D4000D565F /* ThumbnailImageView.h */,
+				CCE4318C11B978D4000D565F /* ThumbnailImageView.m */,
+			);
+			name = "Adittional Views and Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MyImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyImagePicker" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyImagePicker;
+			productName = MyImagePicker;
+			productReference = 1D6058910D05DD3D006BFB54 /* MyImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyImagePicker" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MyImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				CCBD92F611B0227F00E904DF /* AlbumContentsViewController.xib in Resources */,
+				CCBD92F811B022BF00E904DF /* PhotoDisplayViewController.xib in Resources */,
+				CCBD943D11B072BA00E904DF /* Icon.png in Resources */,
+				CCC68B3211B42AB800FA3B94 /* AlbumContentsTableViewCell.xib in Resources */,
+				CC00DFA511BA26BD00C59FA7 /* ThumbnailHighlight.png in Resources */,
+				CCFDDC8F11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MyImagePickerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				CCBD932811B030BE00E904DF /* AlbumContentsViewController.m in Sources */,
+				CCBD932B11B030DD00E904DF /* PhotoDisplayViewController.m in Sources */,
+				CC99FE5111B08EA200A2E5B6 /* AlbumContentsTableViewCell.m in Sources */,
+				CCE4318D11B978D4000D565F /* ThumbnailImageView.m in Sources */,
+				CC00DF6811BA21AD00C59FA7 /* TapDetectingImageView.m in Sources */,
+				CCFDDC8E11BB0DAA005E0773 /* AssetsDataIsInaccessibleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyImagePicker_Prefix.pch;
+				INFOPLIST_FILE = "MyImagePicker-Info.plist";
+				PRODUCT_NAME = MyImagePicker;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyImagePicker_Prefix.pch;
+				INFOPLIST_FILE = "MyImagePicker-Info.plist";
+				PRODUCT_NAME = MyImagePicker;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

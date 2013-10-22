@@ -1,0 +1,1 @@
+When do I need to use Core Animation instead of UIView Animation?  In this demo we'll show you an example of an animation that can only be achieved with the lower level control provided by Core Animation.

@@ -1,0 +1,1 @@
+This illustrates the use of anchor points and sub-layers to achieve a life-like waving animation.
